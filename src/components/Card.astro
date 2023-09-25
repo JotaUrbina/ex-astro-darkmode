@@ -1,0 +1,38 @@
+---
+import { Image } from "astro:assets";
+import imgCard from "../assets/icon.png";
+import vectorBG from "../assets/Vector.svg";
+---
+
+<article
+  class="w-4/5 h-96 border border-[#141414] rounded-lg flex flex-col items-center justify-center gap-4 px-4 relative dark:border-[#f7f7f7] max-w-md shadow-lg dark:shadow-[#f7f7f7]"
+>
+  <Image
+    src={imgCard}
+    alt="Imagen del logo z-10"
+    width={100}
+  />
+  <h2
+    class="text-3xl font-bold text-[#141414] dark:text-[#f7f7f7]"
+  >
+    A Vast Ecosystem
+  </h2>
+  <p class="text-center text-[#141414] dark:text-[#f7f7f7]">
+    Integrate Circulr with your existing tech stack or any
+    other 3rd party integrations in our vast ecosystem of
+    supported apps and plugins
+  </p>
+  <button
+    class="bg-[#6558FF] px-8 py-2 rounded-lg text-[#f7f7f7]"
+    >View more</button
+  >
+</article>
+
+<style>
+  article {
+    background-image: url("../assets/Vector.svg");
+    background-repeat: no-repeat;
+    background-position-x: -25px;
+    background-position-y: top;
+  }
+</style>
