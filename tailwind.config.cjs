@@ -11,6 +11,7 @@ module.exports = {
     fontFamily: {
       rob: ["Roboto Condensed"],
     },
+
     extend: {},
   },
   plugins: [],
